@@ -5,8 +5,8 @@ def change
     t.string :name
     t.string :location
     t.integer :costume_inventory
-    t.integer :employees
-    t.integer :in_business
+    t.integer :num_of_employees
+    t.boolean :in_business
     t.datetime :opening_time
     t.datetime :closing_time
 end
